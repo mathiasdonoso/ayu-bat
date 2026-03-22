@@ -17,7 +17,7 @@
         <key>caret</key>
         <string>#FFCC66</string>
         <key>lineHighlight</key>
-        <string>#191E2A</string>
+        <string>#2D3650</string>
         <key>selection</key>
         <string>#34455A</string>
         <key>selectionBorder</key>
@@ -55,7 +55,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFAD66</string>
+        <string>#FFA659</string>
       </dict>
     </dict>
 
@@ -103,7 +103,19 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFAD66</string>
+        <string>#DFBFFF</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Built-in Constant</string>
+      <key>scope</key>
+      <string>support.constant, support.constant.property-value, support.constant.color</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#DFBFFF</string>
       </dict>
     </dict>
 
@@ -111,7 +123,19 @@
       <key>name</key>
       <string>Type / Class</string>
       <key>scope</key>
-      <string>entity.name.type, entity.name.class, entity.name.struct, entity.name.enum, entity.name.interface, entity.name.trait, entity.name.impl, support.type, support.class</string>
+      <string>entity.name.type, entity.name.class, entity.name.struct, entity.name.enum, entity.name.interface, entity.name.trait, entity.name.impl</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#73D0FF</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Built-in Type</string>
+      <key>scope</key>
+      <string>support.type, support.class</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -127,7 +151,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFD173</string>
+        <string>#FFCD66</string>
       </dict>
     </dict>
 
@@ -139,7 +163,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFD173</string>
+        <string>#FFCD66</string>
       </dict>
     </dict>
 
@@ -169,6 +193,18 @@
 
     <dict>
       <key>name</key>
+      <string>Member / Property</string>
+      <key>scope</key>
+      <string>variable.other.member, variable.other.property, variable.other.field</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#F28779</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
       <string>Tag</string>
       <key>scope</key>
       <string>entity.name.tag</string>
@@ -187,7 +223,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFD173</string>
+        <string>#FFCD66</string>
       </dict>
     </dict>
 
@@ -211,7 +247,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#F29668</string>
+        <string>#F29E74</string>
       </dict>
     </dict>
 
@@ -223,7 +259,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#5CCFE6</string>
+        <string>#73D0FF</string>
       </dict>
     </dict>
 
@@ -235,7 +271,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFCC66</string>
+        <string>#D9BE98</string>
       </dict>
     </dict>
 
@@ -275,7 +311,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFD173</string>
+        <string>#FFCD66</string>
         <key>fontStyle</key>
         <string>bold</string>
       </dict>
@@ -289,7 +325,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#DFBFFF</string>
+        <string>#F28779</string>
         <key>fontStyle</key>
         <string>italic</string>
       </dict>
@@ -340,6 +376,18 @@
       <dict>
         <key>foreground</key>
         <string>#FFCC66</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Diff Header</string>
+      <key>scope</key>
+      <string>meta.diff.header, meta.diff.index, meta.diff.range</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#5CCFE6</string>
       </dict>
     </dict>
 
